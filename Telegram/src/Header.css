@@ -1,0 +1,35 @@
+.main{
+    background-color: rgb(22, 150, 205);
+}
+
+nav{
+   
+    width: 100%;
+    height: 120px;
+   
+}
+
+ul{
+    display: flex;
+    justify-content:space-around;
+    /* gap: 50px; */
+}
+
+li{
+    display:inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+li:hover{
+    text-decoration: underline;
+
+   
+}
+.three button{
+    background-color: initial;
+    border: none;
+    outline: none;
+
+}
