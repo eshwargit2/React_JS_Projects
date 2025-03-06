@@ -1,0 +1,51 @@
+.section3 .input-se{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.input-se input{
+    width: 450px;
+    height: 53px;
+    background-color: initial;
+    border: 1px solid rgb(163, 154, 154);
+    border-radius: 3px;    
+    color: white;
+}
+
+input::placeholder{
+    color: rgb(184, 176, 176);
+    position: relative;
+    left: 10px;
+}
+
+.input-se button{
+
+
+    width: 180px;
+     height: 51px;
+     color: white;
+     background-color: red;
+     border: none;
+     outline: none;
+     font-size: 25px;
+     font-weight: bold;
+     border-radius: 5px;
+     position: relative;
+     bottom: 10px;
+ }
+
+
+
+ @media screen and (max-width:450px) {
+    .input-se input{
+        width: 100%;
+
+    }
+
+
+    
+ }

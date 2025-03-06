@@ -1,0 +1,132 @@
+
+nav .banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./imgs/Netflix-b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+nav .con{
+    position:relative;
+    bottom: 40px;
+  
+}
+
+.banner .logo  {
+    width: 220px;
+    position: absolute;
+    top: 0;
+}
+
+.banner .lan-btn{
+    padding: 3px 17px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: initial;
+    color: white;
+}
+.banner .sign-btn{
+    padding: 3px 10px;
+   background-color: red;
+    border-radius: 4px;
+    outline: none;
+    color: white;
+    border: none;
+}
+
+.title h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title h5{
+    font-weight: bold;
+}
+
+.title .input{
+    width: 390px;
+    height: 53px;
+    background-color: initial;
+    border: 1px solid rgb(163, 154, 154);
+    border-radius: 3px;    
+    color: white;
+}
+
+.input::placeholder{
+    color: rgb(184, 176, 176);
+    position: relative;
+    left: 10px;
+}
+
+.title .get-start{
+
+
+   width: 180px;
+    height: 50px;
+    color: white;
+    background-color: red;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.title .hr{
+    width: 100%;
+    height: 40px;
+    border-top: 4px solid rgb(176, 46, 46);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   
+    
+}
+
+
+
+@media screen and (max-width:750px) {
+
+    .banner .logo  {
+        width: 180px;
+        position: absolute;
+        top: 10px;
+    }
+    nav .banner{
+        height: 80vh;
+    }
+    .banner .lan-btn{
+        padding: 3px 15px;
+        margin-left: 10px;
+    }
+    .title h1{
+        font-size: 34px;
+    }
+    .title h5{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .title p{
+        font-size: 17px;
+
+    }
+    .title .input{
+        width: 85%;
+        height: 53px;
+        background-color: initial;
+        border: 1px solid rgb(163, 154, 154);
+        border-radius: 3px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+         
+    }
+    .title .get-start{
+        font-size: 16px;
+    }
+    
+}
