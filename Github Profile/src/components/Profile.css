@@ -1,0 +1,121 @@
+.img-side{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(240, 248, 255, 0.262); */
+}
+.img-side .dp{
+    width: 320px;
+    height: 280px;
+    position: relative;
+}
+.dp img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.img-side .emoji{
+    font-size: 20px;
+}
+.img-side .dp .icon{
+    width: 30px;
+    height: 30px;
+
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 80%;
+    right: 10%;
+    border: 1px solid orange;
+}
+.img-side .bio-ski p{
+    font-size: 15px;
+    font-weight: 50px;
+    
+}
+.img-side button{
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.17);
+    border: 1px solid white;
+    border-radius:5px ;
+    color: white;
+}
+.img-side a{
+    text-decoration: none;
+    color: white;
+}
+.icon .i-name{
+    display: none;
+}
+
+@media screen and (max-width:750px) {
+    .img-side{
+
+        
+        display: flex;
+        justify-content: center;
+        align-items: center   ;
+    }
+   .img-side .dp{
+        width: 90px;
+        height: 65px;
+    }
+    .img-side .dp .icon .i-name{
+        display: block;
+        text-align: center;
+    }
+    .img-side .dp .icon{
+        display: block;
+        position: absolute;
+        width:330px;
+        top: 115%;
+        left: 42%;
+        background-color: initial;
+        border-radius: 5px;
+        height: 30px;
+        border: 1px solid orange;
+        margin-top: 5px;
+    
+
+    }
+    .img-side{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .img-side .name{
+        position: relative;
+        top: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .img-side .user-name{
+        position: relative;
+        text-align: center;
+        bottom: 24px;
+        
+    }
+    .img-side .follow{
+        width: 330px;
+        position: relative;
+        left: 5px;
+    }
+    .img-side .bio-ski{
+        position: relative;
+        top: 10px;
+         text-align: center;
+    }
+    .img-side .emoji{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:755px) {
+    .img-side{
+        margin-left: 50px;
+    }
+}

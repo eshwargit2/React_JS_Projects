@@ -1,0 +1,33 @@
+.spcial-repo{
+    position: relative;
+    top: 70px;
+    width: 60%;
+  
+    border-radius: 5px;
+    /* height:650px; */
+     
+}
+.spcial-repo .boder-c{
+    border: 1px solid rgba(223, 222, 228, 0.349);
+    margin: 10px;
+}
+.spcial-repo .icons{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:750px) {
+    .spcial-repo{
+        width: 90%;
+        top: 0px;
+        /* height: 680px; */
+        
+    }
+    .spcial-repo {
+        width: 100%;
+        display: flex;
+        position: relative;
+        
+    }
+}

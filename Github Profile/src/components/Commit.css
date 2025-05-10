@@ -1,0 +1,110 @@
+.commit-section{
+    width: 100%;
+}
+.commit-section .commit-border{
+    width:730px;
+    height: 150px;
+    border:1px solid rgba(223, 222, 228, 0.349);
+    border-radius: 5px;
+    display: flex;
+    
+    flex-direction:row;
+    flex-wrap: wrap;
+    
+     
+
+}
+.comit-box{
+    width: 16px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, 0.228);
+    border-radius: 3px;
+    margin: 3px;
+
+}
+
+.outline{
+    width: 93%;
+    height: 160px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgba(223, 222, 228, 0.349);
+    margin: 10px;
+    
+
+}
+
+.show{
+    width: 100%;
+    height: 30px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.168);
+    color: white;
+    border: 1px solid white;
+    outline: none;
+}
+
+.commit-section hr{
+    border:1px solid rgba(223, 222, 228, 0.349)
+}
+
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+}
+footer ul li{
+    list-style: none;
+    color: gray;
+}
+
+
+
+@media screen and (max-width:750px) {
+   .commit-section .commit-border{
+        width:284px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .comit-box{
+        width: 7px;
+        height: 7px;
+        margin: 1px;
+
+    }
+    .outline{
+        width: 90%;
+        height: 160px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:1px solid rgba(223, 222, 228, 0.349);
+        margin: 10px;
+    
+    }
+    
+}
+
+
+@media screen and (min-width:755px) and (max-width:1300px) {
+    .commit-section .commit-border{
+        width:57%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .comit-box{
+        width: 7px;
+        height: 7px;
+        margin: 1px;
+
+    }
+
+}
+
+

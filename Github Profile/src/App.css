@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.App .con{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:750px) {
+    .App .con{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+}
