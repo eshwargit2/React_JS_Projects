@@ -1,0 +1,53 @@
+.about-section{
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    font-family: "Poppins", sans-serif;
+}
+
+.about-section .skills{
+    border: 1px solid black;
+    border-radius:5px ;
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(229, 238, 246, 0.395);
+}
+
+.about-section .ex-icon i{
+    font-size: 50px;
+}
+footer .links{
+    display: flex;
+    gap: 30px;
+}
+.links i {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:750px) {
+    .ex-icon{
+        padding-left: 50px;
+        margin-right:30px ;
+    }
+    .about-section .educa img{
+        width: 80px;
+    }
+    .about-section .clg h3{
+         font-size: 18px;
+    }
+    footer .links{
+        display: flex;
+        gap: 30px;
+    }
+    .links i {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+}

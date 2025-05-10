@@ -1,0 +1,304 @@
+.header{
+    width: 100%;
+    height: 100vh;
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+
+.banner{
+    width: 100%;
+    height: 300px;
+}
+.banner img{
+    width: 100%;
+}
+.dp{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 16%;
+    left: 30%;
+}
+.dp img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border:4px solid white;
+
+}
+/* 
+.title{
+    position: absolute;
+    left: 30px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+}
+
+
+.title .name h1{
+    font-size: 23px;
+    font-weight: 700;
+    position: relative;
+    right: 130px; 
+    font-family: sans-serif;
+    position: relative;
+    right: 65px;
+
+}
+
+.title .skils p{
+    font-weight: 500;
+} */
+
+.title .edu h5{
+    font-size: 15px;
+}
+.title .edu p{
+    font-size: 12px;
+}
+.title .link a{
+       
+    text-decoration: none;
+    font-weight: 500;
+}
+.title .connection a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+@media screen and (min-width:1210px) {
+    
+
+    .dp {
+        position: absolute;
+        top: 35%;
+        left: 15%;
+    
+    }
+    .dp img{
+        width: 250px;
+        height: 250px;
+    }
+    
+    .banner img{
+        width: 100%;
+        height: 350px;
+    
+    }
+    .title{
+        position: absolute;
+        left: 10%;
+        /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', 
+        monospace;*/
+        text-align: start;
+        top: 75%;
+        font-family: "Poppins", sans-serif;
+    }
+    .about-sec{
+        position: absolute;
+        top: 130%;
+        left: 10%;
+    }
+    .title .btn-sec1{
+        display: flex;
+        justify-content:safe;
+    }
+    .title .btn-sec1  .open {
+        width: 300px;
+        height: 45px;
+        margin: 10px;
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        background-color: rgb(61, 155, 232);
+    }
+    .title .btn-sec1 .add {
+        width: 300px;
+        height: 45px;
+       position: relative;
+       top: 10px;
+      
+        outline: none;
+        border-radius: 30px;
+        border: 2px solid rgb(61, 155, 232);
+        color: rgb(61, 155, 232);
+        background-color: white;
+    }
+    .title .btn-sec2{
+        display: flex;
+        justify-content: safe;
+    }
+    
+    .title .btn-sec2 button{
+        width: 56%;
+        height: 45px;
+        border: 2px solid rgb(61, 155, 232);
+        color: rgb(61, 155, 232);
+        outline: none;
+        border-radius: 30px;
+        background-color: white;
+    }
+    }
+    
+/* mobile descktop */
+@media screen and (min-width:750px) and ( max-width:1200px ) {
+    
+
+.dp {
+    position: absolute;
+    top: 10%;
+    left: 8%;
+
+}
+.dp img{
+    width: 300px;
+    height: 300px;
+}
+.banner{
+    width: 100%;
+}
+
+.banner img{
+    width: 100%;
+    height: 350px;
+
+}
+.title{
+    position: absolute;
+    left: 10%;
+    /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', 
+    monospace;*/
+    text-align: start;
+    top: 28%;
+    font-family: "Poppins", sans-serif;
+}
+.title h1{
+    font-size: 50px;
+}
+.title p{
+    font-size: 25px;
+}
+.title .skils{
+    font-size: 20px;
+}
+.title .edu{
+    font-size: 18px;
+}
+.about-sec{
+    position: absolute;
+    top: 58%;
+    left: 10%;
+}
+.title .btn-sec1{
+    display: flex;
+    justify-content:safe;
+}
+.title .btn-sec1  .open {
+    width: 300px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-color: rgb(61, 155, 232);
+}
+.title .btn-sec1 .add {
+    width: 300px;
+    height: 45px;
+   position: relative;
+   top: 10px;
+  
+    outline: none;
+    border-radius: 30px;
+    border: 2px solid rgb(61, 155, 232);
+    color: rgb(61, 155, 232);
+    background-color: white;
+}
+.title .btn-sec2{
+    display: flex;
+    justify-content: safe;
+}
+
+.title .btn-sec2 button{
+    width: 56%;
+    height: 45px;
+    border: 2px solid rgb(61, 155, 232);
+    color: rgb(61, 155, 232);
+    outline: none;
+    border-radius: 30px;
+    background-color: white;
+}
+}
+
+
+@media screen and (max-width:750px) {
+    .banner{
+        width: 100%;
+    }
+    .dp{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 7%;
+        left: 7%;
+    }
+    .title{
+        position: absolute;
+        left: 1%;
+        /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', 
+        monospace;*/
+        text-align: start;
+        top: 27%;
+        font-family: "Poppins", sans-serif;
+    }
+    .title .btn-sec1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .title .btn-sec1  .open {
+        width: 180px;
+        height: 38px;
+        margin: 10px;
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        background-color: rgb(61, 155, 232);
+    }
+    .title .btn-sec1 .add {
+        width: 170px;
+        height: 38px;
+       position: relative;
+       top: 10px;
+      
+        outline: none;
+        border-radius: 30px;
+        border: 2px solid rgb(61, 155, 232);
+        color: rgb(61, 155, 232);
+        background-color: white;
+    }
+    .title .btn-sec2{
+        display: flex;
+        justify-content: center;
+    }
+    .title .btn-sec2 button{
+        width: 90%;
+        height: 38px;
+        border: 2px solid rgb(61, 155, 232);
+        color: rgb(61, 155, 232);
+        outline: none;
+        border-radius: 30px;
+        background-color: white;
+    }
+    .about-sec{
+        position: absolute;
+        top: 80%;
+    }
+}
+
